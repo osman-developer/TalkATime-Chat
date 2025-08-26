@@ -1,0 +1,11 @@
+D:\Programming\TalkATime\Service\bin\Debug\net8.0\Service.deps.json
+D:\Programming\TalkATime\Service\bin\Debug\net8.0\Service.dll
+D:\Programming\TalkATime\Service\bin\Debug\net8.0\Service.pdb
+D:\Programming\TalkATime\Service\obj\Debug\net8.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\TalkATime\Service\obj\Debug\net8.0\Service.AssemblyInfoInputs.cache
+D:\Programming\TalkATime\Service\obj\Debug\net8.0\Service.AssemblyInfo.cs
+D:\Programming\TalkATime\Service\obj\Debug\net8.0\Service.csproj.CoreCompileInputs.cache
+D:\Programming\TalkATime\Service\obj\Debug\net8.0\Service.dll
+D:\Programming\TalkATime\Service\obj\Debug\net8.0\refint\Service.dll
+D:\Programming\TalkATime\Service\obj\Debug\net8.0\Service.pdb
+D:\Programming\TalkATime\Service\obj\Debug\net8.0\ref\Service.dll

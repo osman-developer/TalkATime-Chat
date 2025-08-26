@@ -1,0 +1,11 @@
+<div class="border-top bg-white px-4 py-3">
+  <form #messageForm="ngForm" (ngSubmit)="sendMessage()" autocomplete="off">
+    <div class="input-group shadow-sm">
+      <input type="text" [(ngModel)]="content" name="content" [ngModelOptions]="{ standalone: true }" required
+        class="form-control border-0" placeholder="Type your message..." />
+      <button [disabled]="!messageForm.valid" class="btn btn-primary" type="submit">
+        <i class="bi bi-send-fill">Send</i>
+      </button>
+    </div>
+  </form>
+</div>

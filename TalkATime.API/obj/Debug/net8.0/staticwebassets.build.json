@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "oUvIz9vUeN74YyS5hF4ZzAMAjc7csvuFo6iSkLp//WU=",
+  "Source": "TalkATime.API",
+  "BasePath": "_content/TalkATime.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

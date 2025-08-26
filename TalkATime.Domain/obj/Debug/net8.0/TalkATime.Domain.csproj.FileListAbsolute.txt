@@ -1,0 +1,11 @@
+D:\Programming\TalkATime\TalkATime.Domain\bin\Debug\net8.0\TalkATime.Domain.deps.json
+D:\Programming\TalkATime\TalkATime.Domain\bin\Debug\net8.0\TalkATime.Domain.dll
+D:\Programming\TalkATime\TalkATime.Domain\bin\Debug\net8.0\TalkATime.Domain.pdb
+D:\Programming\TalkATime\TalkATime.Domain\obj\Debug\net8.0\TalkATime.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\TalkATime\TalkATime.Domain\obj\Debug\net8.0\TalkATime.Domain.AssemblyInfoInputs.cache
+D:\Programming\TalkATime\TalkATime.Domain\obj\Debug\net8.0\TalkATime.Domain.AssemblyInfo.cs
+D:\Programming\TalkATime\TalkATime.Domain\obj\Debug\net8.0\TalkATime.Domain.csproj.CoreCompileInputs.cache
+D:\Programming\TalkATime\TalkATime.Domain\obj\Debug\net8.0\TalkATime.Domain.dll
+D:\Programming\TalkATime\TalkATime.Domain\obj\Debug\net8.0\refint\TalkATime.Domain.dll
+D:\Programming\TalkATime\TalkATime.Domain\obj\Debug\net8.0\TalkATime.Domain.pdb
+D:\Programming\TalkATime\TalkATime.Domain\obj\Debug\net8.0\ref\TalkATime.Domain.dll

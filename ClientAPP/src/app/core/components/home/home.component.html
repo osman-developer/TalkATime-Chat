@@ -1,0 +1,49 @@
+<ng-container *ngIf="openChat===false">
+
+  <!-- Page Heading -->
+  <div class="text-center pt-5 pb-3 bg-white shadow-sm">
+    <h3 class="fw-bold">Let's get you connected and <span class="text-danger">chat</span> with other <span
+        class="text-info">people.</span></h3>
+  </div>
+
+  <!-- Main Form Card -->
+  <div class="d-flex justify-content-center align-items-center bg-gradient"
+    style="background: linear-gradient(to right top, #e0eafc, #cfdef3); min-height: 70vh; padding: 3rem 0;">
+
+    <div class="card shadow-lg border-0 rounded-4 p-4 p-md-5 animate__animated animate__fadeIn"
+      style="width: 100%; max-width: 420px; background: #ffffffcc; backdrop-filter: blur(10px);">
+      <!-- Logo & Welcome Message -->
+      <div class="text-center mb-4">
+        <img src="assets/images/chattingLogo.png" alt="Logo" style="height: 60px;" class="mb-3">
+        <h3 class="fw-semibold">Welcome 👋</h3>
+        <p class="text-muted mb-0 small">Pick a display name to start chatting with the community</p>
+      </div>
+
+      <!-- Form -->
+      <form [formGroup]="userForm" (ngSubmit)="submitForm()" autocomplete="off">
+        <div class="form-floating mb-3">
+          <input formControlName="name" type="text" id="name" class="form-control rounded-3 shadow-sm"
+            placeholder="Your name" [class.is-invalid]="submitted && userForm.get('name')?.errors">
+          <span class="text-danger" *ngIf="submitted && userForm.get('name')?.hasError('required')">
+            Please choose a name.
+          </span>
+          <span class="text-danger"
+            *ngIf="submitted && userForm.get('name')?.hasError('maxlength') ||  userForm.get('name')?.hasError('minlength')">
+            Your name must be at least 3, and maximum 15 characters.
+          </span>
+        </div>
+
+        <div class="d-grid mt-4">
+          <button type="submit" class="btn btn-warning btn-lg rounded-3 shadow">
+            🚀 Enter Chat
+          </button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+</ng-container>
+
+<ng-container *ngIf="openChat===true">
+  <app-chat (closeChatEmitter)="closeChat()"></app-chat>
+</ng-container>

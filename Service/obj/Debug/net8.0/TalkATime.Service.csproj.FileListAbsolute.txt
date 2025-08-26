@@ -1,0 +1,15 @@
+D:\Programming\TalkATime\Service\bin\Debug\net8.0\TalkATime.Service.deps.json
+D:\Programming\TalkATime\Service\bin\Debug\net8.0\TalkATime.Service.dll
+D:\Programming\TalkATime\Service\bin\Debug\net8.0\TalkATime.Service.pdb
+D:\Programming\TalkATime\Service\obj\Debug\net8.0\TalkATime.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\TalkATime\Service\obj\Debug\net8.0\TalkATime.Service.AssemblyInfoInputs.cache
+D:\Programming\TalkATime\Service\obj\Debug\net8.0\TalkATime.Service.AssemblyInfo.cs
+D:\Programming\TalkATime\Service\obj\Debug\net8.0\TalkATime.Service.csproj.CoreCompileInputs.cache
+D:\Programming\TalkATime\Service\obj\Debug\net8.0\TalkATime.Service.dll
+D:\Programming\TalkATime\Service\obj\Debug\net8.0\refint\TalkATime.Service.dll
+D:\Programming\TalkATime\Service\obj\Debug\net8.0\TalkATime.Service.pdb
+D:\Programming\TalkATime\Service\obj\Debug\net8.0\ref\TalkATime.Service.dll
+D:\Programming\TalkATime\Service\bin\Debug\net8.0\TalkATime.Domain.dll
+D:\Programming\TalkATime\Service\bin\Debug\net8.0\TalkATime.Domain.pdb
+D:\Programming\TalkATime\Service\obj\Debug\net8.0\TalkATime.Service.csproj.AssemblyReference.cache
+D:\Programming\TalkATime\Service\obj\Debug\net8.0\TalkATim.F9702DF3.Up2Date
