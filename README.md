@@ -18,7 +18,7 @@ It supports global chat, private chat, and live user presence tracking. For simp
 
 ## 🛠️ Tech Stack
 ### Backend
-- **.NET 
+- ** .NET 
 - **SignalR** (real-time communication)
 - **C#**  
 - **Dependency Injection & Logging**
