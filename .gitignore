@@ -1,0 +1,19 @@
+# .NET build folders
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+
+# Build output
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# Others
+*.swp
+*.tmp

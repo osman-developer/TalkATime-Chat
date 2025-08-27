@@ -1,1 +1,19 @@
-<p>online-users works!</p>
+<div class="flex-grow-1 overflow-auto ">
+  <ul class="list-group list-group-flush">
+    <li *ngFor="let user of onlineUsers " class="list-group-item d-flex align-items-center px-4 py-3 border-0 user-item"
+      (click)="openPrivateChat(user)" style="cursor: pointer;">
+      <div class="position-relative me-3">
+        <span class="position-absolute top-0 start-0  p-1 bg-success border border-white rounded-circle"
+          style="width: 10px; height: 10px;"></span>
+        <div [ngClass]="{'bg-primary':user===myName,'bg-success':user!==myName}"
+          class="avatar text-white rounded-circle d-flex justify-content-center align-items-center fw-bold"
+          style="width: 42px; height: 42px;">
+          {{ user.charAt(0).toUpperCase() }}
+        </div>
+      </div>
+      <div class="flex-grow-1 ml-1">
+        <div class="fw-semibold text-dark">{{ user }}</div>
+      </div>
+    </li>
+  </ul>
+</div>
